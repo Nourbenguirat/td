@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caravan Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="text-xl font-bold">Caravan Blog</div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Home</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">About</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Featured Posts Section -->
+    <section class="my-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-4">Featured Posts</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="1.jpeg" alt="Post 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Caravane rigide</h3>
+                        <p class="text-gray-600 mt-2">cest la caravane la plus courante. Véritable petit appartement mobile, sa taille varie en fonction des modèles et peut aisément accueillir toute la famille</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="5.jpeg" alt="Post 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Caravane surbaissée</h3>
+                        <p class="text-gray-600 mt-2">Située entre la caravane rigide et la pliante, elle est idéale pour le voyage. </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="6.jpeg" alt="Post 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Caravane pliante</h3>
+                        <p class="text-gray-600 mt-2"> cette caravane se plie et n’est pas plus haute qu’une remorque, ce qui la rend très maniable et pratique. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="my-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-4">Categories</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full">Category 1</span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full">Category 2</span>
+                <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full">Category 3</span>
+                <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full">Category 4</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="my-8">
+        <div class="container mx-auto px-4 ">
+            <h2 class="text-2xl font-bold mb-4">Recent Posts</h2>
+            <div class="space-y-4 ">
+                <div class="bg-blue-100 p-4 rounded-lg shadow-md">
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-lg font-bold">Caravane rigide</h3>
+                    <p class="text-gray-500">Published on July 14, 2024</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-lg font-bold">Caravane surbaissée</h3>
+                    <p class="text-gray-500">Published on July 13, 2024</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-lg font-bold">Caravane pliante</h3>
+                    <p class="text-gray-500">Published on July 12, 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section class="my-8 bg-blue-100 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-4">Subscribe to Our Newsletter</h2>
+            <form action="#" method="post" class="space-y-4">
+                <input type="email" class="w-full max-w-lg mx-auto p-3 rounded-md border border-gray-300" placeholder="Enter your email">
+                <button type="submit" class="w-full max-w-lg mx-auto p-3 bg-blue-600 text-white rounded-md hover:bg-blue-700">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="  bg-blue-100 text-white py-4">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center space-x-4 mb-4">
+              
+            <h2 class="text-2xl font-bold mb-4 text-black">wlcm to our van</h2>
+        </div>
+    </footer>
+</body>
+</html>
